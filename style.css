@@ -1,0 +1,13 @@
+.scrollable-container {
+    width: 400px;
+    /* Set the width of the container */
+    height: 270px;
+    /* Set the height of the container */
+    overflow-y: scroll;
+    /* Enable vertical scrolling */
+    border: 1px solid #ccc;
+    /* Add a border for visual clarity */
+    padding: 1px;
+    /* Add some padding */
+    /* box-sizing: border-box; */
+    /* Include padding in the element's total width and height */
