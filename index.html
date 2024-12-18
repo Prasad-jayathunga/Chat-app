@@ -12,26 +12,29 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-                <select name="" id="cmbUser" onchange="selectChatUser()">
-                    <option class="data-bs-theme=light]" value="me">Me</option>
-                    <option value="sashi">Sashi</option>
-                </select>
-                <ul class="list-group" id="msgtype">
+    <div class="b-example-divider"></div>
 
-                </ul>
-
-            </div>
-
+    <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modalTour">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content rounded-4 shadow">
+          <div class="modal-body p-5">
+            <h2 class="fw-bold mb-0">Chat with BOT</h2>
+    
+            <ul class="d-grid gap-4 my-5 list-unstyled small" id="msgType">
+              
+            
+             
+            </ul>
+            <input type="text" class="form-control" id="textUserInput">
+            <button type="button" onclick="addTask()" class="btn btn-lg btn-primary mt-2 w-100" data-bs-dismiss="modal">Send</button>
+          </div>
         </div>
-
+      </div>
     </div>
-    <div class="posi">
-        <input type="text" class="form-control" id="textUserInput" placeholder="massage">
-    </div>
-    <button class=" btn1 btn btn-primary" onclick="addTask()">Send</button>
+    
+ 
+    
+    
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
